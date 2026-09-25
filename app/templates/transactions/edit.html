@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<div class="row justify-content-center"><div class="col-lg-7"><div class="glass-card p-4"><h1 class="h3">Edit {{ transaction.type }}</h1>{% set kind=transaction.type %}{% include 'transactions/_form.html' %}</div></div></div>{% endblock %}

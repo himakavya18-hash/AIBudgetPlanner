@@ -1,0 +1,6 @@
+.env
+env/
+instance/
+Toxic.mkv
+__pycache__/
+*.py[cod]
